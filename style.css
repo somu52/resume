@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    
+    
+    box-sizing : border-box;
+    text-decoration : none;
+}
+
+body{
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #093637, #44A08D); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #093637, #44A08D); 
+    width: fit-content;
+}
+
+
+.navbar{
+    position : fixed;
+    width : 100%;
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    font-family : 'Ubuntu',Arial, Helvetica, sans-serif
+}
+.navbar.max-width{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.navbar.menu li{
+    list-style : none;
+    display : inline-block;
+}
+.navbar.menu li a{
+    color:#fff;
+}
+
+
+
+ 
+ 
+
+
+  .user img{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50%;
+    height:25rem;
+    position: relative;
+    padding-top: 20px;
+    bottom: -110px;
+    right: -100px;
+    
+    text-align:center;
+    overflow: hidden;
+ }
+ home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+    
+}
+.home{
+    justify-content: center;
+}
+
+.home h3{
+    font-size: 2.5rem;
+    color:#fff;
+    position: relative;
+    right:-650px;
+    top:-200px;
+    
+}
+
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;       
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;    
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }
+     20% { transform: rotate(-8.0deg) }
+  
+  30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+  }
+
+.home h1{
+    font-size:3rem;
+    color:#fff;
+    position: relative;
+    right:-650px;
+    top:-230px;
+}
+
+.home h1 span{
+    color:var(--Teal);
+}
+
+.home p{
+    font-size:1rem;
+    color:#eee;
+    padding: 1rem 0;
+    position: relative;
+    right:-650px;
+    top:-250px;
+}
+

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    
+    
+    box-sizing : border-box;
+    text-decoration : none;
+}
+
+body{
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #093637, #44A08D); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #093637, #44A08D); 
+    width: fit-content;
+}
+
+
+.navbar{
+    position : fixed;
+    width : 100%;
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    font-family : 'Ubuntu',Arial, Helvetica, sans-serif
+}
+.navbar.max-width{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.navbar.menu li{
+    list-style : none;
+    display : inline-block;
+}
+.navbar.menu li a{
+    color:#fff;
+}
+
+
+
+section{
+    padding: 50px 0;
+}
+.skills{
+    font-family: 'Poppins',sans-serif;
+}
+.skills .title{
+    text-align: center;
+    font-size:40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-bottom: -10px;
+    font-family: 'Ubuntu',sans-serif;
+    text-decoration: underline;
+}
+.skills{
+    position: relative;
+    right: -150px;
+}
+.column-2a {
+    float: left;
+    width: 55%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 50px;
+    padding-bottom:60px;
+    height:350px;
+    margin:2px;
+    margin-right:30px;
+    margin-bottom: -20px;
+    background-color:white;
+  }
+  .column-2b{
+    float: right;
+    width: 45%;
+    padding: 20px;
+    padding-left:120px;
+    padding-right: 230px;
+    padding-bottom:60px;
+    height:350px;
+    margin:2px;
+    margin-right:-120px;
+    margin-bottom: -20px;
+    background-color:white;
+  }
+
+ .column-2b{
+    margin-left: 80px;
+ }
+ 
+  
